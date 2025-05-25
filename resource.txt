@@ -1,0 +1,22 @@
+Dataset reference: https://ppg-beats.readthedocs.io/en/latest/datasets/summary/
+PPG-DaLia: https://archive.ics.uci.edu/dataset/495/ppg+dalia
+
+Sitting (ID: 1): Sitting still while reading. The aim of this activity was to generate a motion artefact-free baseline. 
+Ascending and descending stairs (ID: 2): Climbing six floors up and going down again, 
+    repeating this twice. This activity was carried out in the main building at our research campus. 
+    Note: for subjects S1 and S2, going down was performed only once. 
+Table soccer (ID: 3): Playing table soccer, 1 vs. 1 with the supervisor of the data collection. 
+Cycling (ID: 4): Performed outdoors, around our research campus, 
+    following a defined route of about 2km length with varying road conditions (gravel, paved). 
+Driving a car (ID: 5): This activity started at the parking ground of our research campus and 
+    was carried out within the area nearby. 
+    Subjects followed a defined route which took about 15 minutes to complete. 
+    The route included driving on different streets in a small city as well as driving on country roads. 
+Lunch break (ID: 6): This activity was carried out at the canteen of our research campus. 
+    The activity included queuing and fetching food, eating, and talking at the table. 
+Walking (ID: 7): This activity was carried out within the premises of our research campus, 
+    walking back from the canteen to the office, with some detour. 
+Working (ID: 8): Subjects returned to their desk and worked as if not participating in this study. 
+    For each subject, work mainly consisted of working on a computer.
+
+The modalities ‘EDA’, ‘EMG’ and ‘Temp’ include dummy data and should be discarded.
