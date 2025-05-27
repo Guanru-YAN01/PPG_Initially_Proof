@@ -1,0 +1,9 @@
+Training log for activity: Stairs
+Epoch 1/20 | Loss_G: 1615.2622 | Loss_D: nan | Val MAE: 19.9026
+Saved best model for Stairs
+Epoch 2/20 | Loss_G: 1618.5143 | Loss_D: nan | Val MAE: 20.1963
+Epoch 3/20 | Loss_G: 1610.2226 | Loss_D: nan | Val MAE: 20.1736
+Epoch 4/20 | Loss_G: 1639.2128 | Loss_D: nan | Val MAE: 20.5922
+Epoch 5/20 | Loss_G: 1650.7841 | Loss_D: nan | Val MAE: 20.6317
+Epoch 6/20 | Loss_G: 1648.0507 | Loss_D: nan | Val MAE: 20.0603
+Early stopping for Stairs at epoch 6

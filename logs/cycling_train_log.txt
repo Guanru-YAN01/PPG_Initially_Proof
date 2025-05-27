@@ -1,0 +1,9 @@
+Training log for activity: Cycling
+Epoch 1/20 | Loss_G: 1766.8128 | Loss_D: nan | Val MAE: 11.9476
+Saved best model for Cycling
+Epoch 2/20 | Loss_G: 1743.2706 | Loss_D: nan | Val MAE: 13.2581
+Epoch 3/20 | Loss_G: 1733.5191 | Loss_D: nan | Val MAE: 12.2879
+Epoch 4/20 | Loss_G: 1808.1645 | Loss_D: nan | Val MAE: 12.3989
+Epoch 5/20 | Loss_G: 1798.7800 | Loss_D: nan | Val MAE: 13.8760
+Epoch 6/20 | Loss_G: 1865.6036 | Loss_D: nan | Val MAE: 15.7630
+Early stopping for Cycling at epoch 6

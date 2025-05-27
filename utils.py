@@ -11,7 +11,8 @@ def extract_hr_from_ppg(ppg_signal, fs=64):
     Input: ppg_signal (Tensor [1, 512])
     Output: estimated HR (Tensor [1])
     """
-    signal_np = ppg_signal.squeeze().cpu().numpy()
+    signal_np = ppg_signal.detach().squeeze().cpu().numpy()
+
     peaks, _ = find_peaks(signal_np, distance=fs*0.4)  # At least 0.4s apart
 
     if len(peaks) < 2:
@@ -20,6 +21,29 @@ def extract_hr_from_ppg(ppg_signal, fs=64):
     rr_intervals = np.diff(peaks) / fs  # in seconds
     hr = 60.0 / np.mean(rr_intervals)
     return torch.tensor([hr], dtype=torch.float32)
+import numpy as np
+import torch
+from scipy.signal import find_peaks
+
+def extract_hr_from_ppg(ppg_signal, fs=64):
+
+    sig_np = ppg_signal.detach().cpu().numpy()  # shape:[B,1,L] or [1,L]
+    # [B,1,L] -> [B,L]
+    if sig_np.ndim == 3:
+        sig_np = sig_np.squeeze(1)
+    # [1, L]
+    if sig_np.ndim == 1:
+        sig_np = sig_np[np.newaxis, :]
+    # find peak
+    hrs = []
+    for one in sig_np:  
+        peaks, _ = find_peaks(one, distance=fs * 0.4)  # 0.4s between two peaks
+        duration_sec = one.shape[0] / fs              # windows duration
+        hr = len(peaks) * (60.0 / duration_sec)       # HR = num of peaks * (60 / win duration)
+        hrs.append(hr)
+
+    return torch.tensor(hrs, dtype=torch.float32, device=ppg_signal.device)
+
 
 
 def compute_mae(preds, targets):

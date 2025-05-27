@@ -63,6 +63,7 @@ for activity_name in ACTIVITY_MAP:
 
         for batch in train_loader:
             ppg = batch['ppg'].to(DEVICE)
+            # print(ppg.shape)
             hr = batch['hr'].to(DEVICE)
             activity_type = batch['activity_type'].to(DEVICE)
 

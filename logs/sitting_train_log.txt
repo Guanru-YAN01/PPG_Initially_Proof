@@ -1,0 +1,14 @@
+Training log for activity: Sitting
+Epoch 1/20 | Loss_G: 6060.4672 | Loss_D: 108.7935 | Val MAE: 56.9473
+Saved best model for Sitting
+Epoch 2/20 | Loss_G: 6201.9781 | Loss_D: 39.7784 | Val MAE: 54.6825
+Saved best model for Sitting
+Epoch 3/20 | Loss_G: 5909.8421 | Loss_D: 29.9154 | Val MAE: 54.8972
+Epoch 4/20 | Loss_G: 5890.5737 | Loss_D: 21.8344 | Val MAE: 52.2501
+Saved best model for Sitting
+Epoch 5/20 | Loss_G: 5752.9864 | Loss_D: 12.7405 | Val MAE: 54.6669
+Epoch 6/20 | Loss_G: 5928.0770 | Loss_D: 8.6753 | Val MAE: 56.0420
+Epoch 7/20 | Loss_G: 5667.1000 | Loss_D: 4.0940 | Val MAE: 54.7150
+Epoch 8/20 | Loss_G: 5824.4296 | Loss_D: 4.5316 | Val MAE: 55.5100
+Epoch 9/20 | Loss_G: 5896.3688 | Loss_D: 2.8627 | Val MAE: 53.9483
+Early stopping for Sitting at epoch 9

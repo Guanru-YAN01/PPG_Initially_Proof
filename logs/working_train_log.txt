@@ -1,0 +1,13 @@
+Training log for activity: Working
+Epoch 1/20 | Loss_G: 7168.0862 | Loss_D: nan | Val MAE: 40.7749
+Saved best model for Working
+Epoch 2/20 | Loss_G: 7067.0862 | Loss_D: nan | Val MAE: 39.8040
+Saved best model for Working
+Epoch 3/20 | Loss_G: 6795.4951 | Loss_D: nan | Val MAE: 38.7432
+Saved best model for Working
+Epoch 4/20 | Loss_G: 7143.2393 | Loss_D: nan | Val MAE: 39.4504
+Epoch 5/20 | Loss_G: 7645.2338 | Loss_D: nan | Val MAE: 45.3509
+Epoch 6/20 | Loss_G: 7699.8678 | Loss_D: nan | Val MAE: 44.3887
+Epoch 7/20 | Loss_G: 7533.9521 | Loss_D: nan | Val MAE: 40.8978
+Epoch 8/20 | Loss_G: 7473.0776 | Loss_D: nan | Val MAE: 40.8649
+Early stopping for Working at epoch 8

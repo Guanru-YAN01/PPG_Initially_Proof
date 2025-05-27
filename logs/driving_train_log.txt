@@ -1,0 +1,22 @@
+Training log for activity: Driving
+Epoch 1/20 | Loss_G: 4250.0258 | Loss_D: nan | Val MAE: 31.0650
+Saved best model for Driving
+Epoch 2/20 | Loss_G: 4133.7052 | Loss_D: nan | Val MAE: 28.5260
+Saved best model for Driving
+Epoch 3/20 | Loss_G: 4318.1705 | Loss_D: nan | Val MAE: 33.4020
+Epoch 4/20 | Loss_G: 4414.0232 | Loss_D: nan | Val MAE: 30.2801
+Epoch 5/20 | Loss_G: 4150.2496 | Loss_D: nan | Val MAE: 32.1335
+Epoch 6/20 | Loss_G: 4103.3812 | Loss_D: nan | Val MAE: 27.5052
+Saved best model for Driving
+Epoch 7/20 | Loss_G: 4025.6765 | Loss_D: nan | Val MAE: 29.7005
+Epoch 8/20 | Loss_G: 3827.1158 | Loss_D: nan | Val MAE: 27.5275
+Epoch 9/20 | Loss_G: 4108.4996 | Loss_D: nan | Val MAE: 30.2755
+Epoch 10/20 | Loss_G: 4351.4212 | Loss_D: nan | Val MAE: 28.9019
+Epoch 11/20 | Loss_G: 3816.8968 | Loss_D: nan | Val MAE: 27.2593
+Saved best model for Driving
+Epoch 12/20 | Loss_G: 4114.2490 | Loss_D: nan | Val MAE: 31.5388
+Epoch 13/20 | Loss_G: 4434.2969 | Loss_D: nan | Val MAE: 30.4618
+Epoch 14/20 | Loss_G: 4508.6961 | Loss_D: nan | Val MAE: 29.5224
+Epoch 15/20 | Loss_G: 4200.3217 | Loss_D: nan | Val MAE: 30.9385
+Epoch 16/20 | Loss_G: 4500.7631 | Loss_D: nan | Val MAE: 30.6455
+Early stopping for Driving at epoch 16
