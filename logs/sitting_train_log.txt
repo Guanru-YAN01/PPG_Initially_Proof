@@ -1,14 +1,43 @@
 Training log for activity: Sitting
-Epoch 1/20 | Loss_G: 6060.4672 | Loss_D: 108.7935 | Val MAE: 56.9473
+Epoch 1/200 | Loss_G: 5777.2588 | Loss_D: 117.1639 | Val MAE: 55.5997
 Saved best model for Sitting
-Epoch 2/20 | Loss_G: 6201.9781 | Loss_D: 39.7784 | Val MAE: 54.6825
+Epoch 2/200 | Loss_G: 5944.1400 | Loss_D: 75.8547 | Val MAE: 55.6254
+Epoch 3/200 | Loss_G: 5955.0459 | Loss_D: 75.2401 | Val MAE: 54.0272
 Saved best model for Sitting
-Epoch 3/20 | Loss_G: 5909.8421 | Loss_D: 29.9154 | Val MAE: 54.8972
-Epoch 4/20 | Loss_G: 5890.5737 | Loss_D: 21.8344 | Val MAE: 52.2501
+Epoch 4/200 | Loss_G: 5859.0823 | Loss_D: 73.2738 | Val MAE: 54.6507
+Epoch 5/200 | Loss_G: 5934.0620 | Loss_D: 68.9077 | Val MAE: 55.9200
+Epoch 6/200 | Loss_G: 6095.1212 | Loss_D: 57.0509 | Val MAE: 57.1748
+Epoch 7/200 | Loss_G: 6185.2255 | Loss_D: 48.5153 | Val MAE: 55.7148
+Epoch 8/200 | Loss_G: 5983.1590 | Loss_D: 45.3859 | Val MAE: 53.3476
 Saved best model for Sitting
-Epoch 5/20 | Loss_G: 5752.9864 | Loss_D: 12.7405 | Val MAE: 54.6669
-Epoch 6/20 | Loss_G: 5928.0770 | Loss_D: 8.6753 | Val MAE: 56.0420
-Epoch 7/20 | Loss_G: 5667.1000 | Loss_D: 4.0940 | Val MAE: 54.7150
-Epoch 8/20 | Loss_G: 5824.4296 | Loss_D: 4.5316 | Val MAE: 55.5100
-Epoch 9/20 | Loss_G: 5896.3688 | Loss_D: 2.8627 | Val MAE: 53.9483
-Early stopping for Sitting at epoch 9
+Epoch 9/200 | Loss_G: 5869.3867 | Loss_D: 44.8863 | Val MAE: 54.3700
+Epoch 10/200 | Loss_G: 6066.0151 | Loss_D: 43.3962 | Val MAE: 55.8419
+Epoch 11/200 | Loss_G: 5832.6739 | Loss_D: 42.8256 | Val MAE: 52.0898
+Saved best model for Sitting
+Epoch 12/200 | Loss_G: 5703.7099 | Loss_D: 42.3481 | Val MAE: 53.6191
+Epoch 13/200 | Loss_G: 5744.5855 | Loss_D: 41.8944 | Val MAE: 54.3723
+Epoch 14/200 | Loss_G: 5875.6409 | Loss_D: 41.9462 | Val MAE: 55.0208
+Epoch 15/200 | Loss_G: 5891.3803 | Loss_D: 41.5896 | Val MAE: 53.4724
+Epoch 16/200 | Loss_G: 5683.3903 | Loss_D: 42.4728 | Val MAE: 51.3374
+Saved best model for Sitting
+Epoch 17/200 | Loss_G: 5360.1054 | Loss_D: 41.5117 | Val MAE: 52.0213
+Epoch 18/200 | Loss_G: 5505.8863 | Loss_D: 42.0406 | Val MAE: 53.4349
+Epoch 19/200 | Loss_G: 5452.0916 | Loss_D: 41.9462 | Val MAE: 51.2567
+Saved best model for Sitting
+Epoch 20/200 | Loss_G: 5380.7431 | Loss_D: 41.2078 | Val MAE: 48.7413
+Saved best model for Sitting
+Epoch 21/200 | Loss_G: 5301.4932 | Loss_D: 41.0620 | Val MAE: 51.5675
+Epoch 22/200 | Loss_G: 5517.4151 | Loss_D: 40.9828 | Val MAE: 52.0661
+Epoch 23/200 | Loss_G: 5208.2824 | Loss_D: 41.0276 | Val MAE: 47.8332
+Saved best model for Sitting
+Epoch 24/200 | Loss_G: 5239.2668 | Loss_D: 40.9596 | Val MAE: 50.9474
+Epoch 25/200 | Loss_G: 5380.5046 | Loss_D: 40.7034 | Val MAE: 51.5037
+Epoch 26/200 | Loss_G: 5571.6849 | Loss_D: 40.7764 | Val MAE: 53.3388
+Epoch 27/200 | Loss_G: 5666.8827 | Loss_D: 41.1204 | Val MAE: 54.0242
+Epoch 28/200 | Loss_G: 5819.7913 | Loss_D: 40.8943 | Val MAE: 54.5269
+Epoch 29/200 | Loss_G: 5863.3894 | Loss_D: 40.6514 | Val MAE: 56.2070
+Epoch 30/200 | Loss_G: 6066.3053 | Loss_D: 40.4802 | Val MAE: 57.7375
+Epoch 31/200 | Loss_G: 6225.4340 | Loss_D: 40.3724 | Val MAE: 59.3398
+Epoch 32/200 | Loss_G: 6272.8589 | Loss_D: 40.2527 | Val MAE: 57.0429
+Epoch 33/200 | Loss_G: 6030.1135 | Loss_D: 40.5348 | Val MAE: 56.0491
+Early stopping for Sitting at epoch 33

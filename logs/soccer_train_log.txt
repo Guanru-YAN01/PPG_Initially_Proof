@@ -1,11 +1,14 @@
 Training log for activity: Soccer
-Epoch 1/20 | Loss_G: 1415.5398 | Loss_D: nan | Val MAE: 25.6794
+Epoch 1/200 | Loss_G: 1473.7900 | Loss_D: 66.1406 | Val MAE: 25.2569
 Saved best model for Soccer
-Epoch 2/20 | Loss_G: 1401.6329 | Loss_D: nan | Val MAE: 25.5770
-Saved best model for Soccer
-Epoch 3/20 | Loss_G: 1427.5942 | Loss_D: nan | Val MAE: 27.7317
-Epoch 4/20 | Loss_G: 1466.1068 | Loss_D: nan | Val MAE: 26.8792
-Epoch 5/20 | Loss_G: 1470.7734 | Loss_D: nan | Val MAE: 27.2823
-Epoch 6/20 | Loss_G: 1430.3995 | Loss_D: nan | Val MAE: 26.2199
-Epoch 7/20 | Loss_G: 1457.8578 | Loss_D: nan | Val MAE: 27.3120
-Early stopping for Soccer at epoch 7
+Epoch 2/200 | Loss_G: 1503.9982 | Loss_D: 47.5264 | Val MAE: 27.7651
+Epoch 3/200 | Loss_G: 1547.2503 | Loss_D: 44.8131 | Val MAE: 28.2651
+Epoch 4/200 | Loss_G: 1482.7399 | Loss_D: 32.1026 | Val MAE: 26.6453
+Epoch 5/200 | Loss_G: 1504.7661 | Loss_D: 32.4048 | Val MAE: 27.8539
+Epoch 6/200 | Loss_G: 1538.1706 | Loss_D: 30.9033 | Val MAE: 26.8078
+Epoch 7/200 | Loss_G: 1442.9875 | Loss_D: 30.7828 | Val MAE: 26.6134
+Epoch 8/200 | Loss_G: 1535.1795 | Loss_D: 28.7148 | Val MAE: 28.6691
+Epoch 9/200 | Loss_G: 1503.9120 | Loss_D: 27.9479 | Val MAE: 26.8456
+Epoch 10/200 | Loss_G: 1521.3895 | Loss_D: 26.5756 | Val MAE: 27.1075
+Epoch 11/200 | Loss_G: 1569.1098 | Loss_D: 24.2423 | Val MAE: 27.9199
+Early stopping for Soccer at epoch 11

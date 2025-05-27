@@ -1,13 +1,29 @@
 Training log for activity: Working
-Epoch 1/20 | Loss_G: 7168.0862 | Loss_D: nan | Val MAE: 40.7749
+Epoch 1/200 | Loss_G: 6816.0045 | Loss_D: 178.7614 | Val MAE: 40.9348
 Saved best model for Working
-Epoch 2/20 | Loss_G: 7067.0862 | Loss_D: nan | Val MAE: 39.8040
+Epoch 2/200 | Loss_G: 7259.8960 | Loss_D: 107.5399 | Val MAE: 41.1938
+Epoch 3/200 | Loss_G: 7439.3374 | Loss_D: 94.5032 | Val MAE: 42.4932
+Epoch 4/200 | Loss_G: 7788.7794 | Loss_D: 86.7787 | Val MAE: 42.8797
+Epoch 5/200 | Loss_G: 7835.5566 | Loss_D: 77.6450 | Val MAE: 44.5162
+Epoch 6/200 | Loss_G: 7712.9934 | Loss_D: 74.5631 | Val MAE: 40.2111
 Saved best model for Working
-Epoch 3/20 | Loss_G: 6795.4951 | Loss_D: nan | Val MAE: 38.7432
+Epoch 7/200 | Loss_G: 7171.0191 | Loss_D: 74.1719 | Val MAE: 40.1617
 Saved best model for Working
-Epoch 4/20 | Loss_G: 7143.2393 | Loss_D: nan | Val MAE: 39.4504
-Epoch 5/20 | Loss_G: 7645.2338 | Loss_D: nan | Val MAE: 45.3509
-Epoch 6/20 | Loss_G: 7699.8678 | Loss_D: nan | Val MAE: 44.3887
-Epoch 7/20 | Loss_G: 7533.9521 | Loss_D: nan | Val MAE: 40.8978
-Epoch 8/20 | Loss_G: 7473.0776 | Loss_D: nan | Val MAE: 40.8649
-Early stopping for Working at epoch 8
+Epoch 8/200 | Loss_G: 6936.9489 | Loss_D: 73.2352 | Val MAE: 39.7300
+Saved best model for Working
+Epoch 9/200 | Loss_G: 6999.6958 | Loss_D: 72.7074 | Val MAE: 40.2399
+Epoch 10/200 | Loss_G: 7123.7461 | Loss_D: 71.6410 | Val MAE: 38.2086
+Saved best model for Working
+Epoch 11/200 | Loss_G: 6487.7069 | Loss_D: 71.1249 | Val MAE: 38.0829
+Saved best model for Working
+Epoch 12/200 | Loss_G: 6822.6799 | Loss_D: 71.3238 | Val MAE: 39.6395
+Epoch 13/200 | Loss_G: 6983.3214 | Loss_D: 71.2338 | Val MAE: 39.6560
+Epoch 14/200 | Loss_G: 6849.1151 | Loss_D: 70.9705 | Val MAE: 38.2420
+Epoch 15/200 | Loss_G: 7431.3466 | Loss_D: 70.8555 | Val MAE: 41.4035
+Epoch 16/200 | Loss_G: 7533.3064 | Loss_D: 70.5500 | Val MAE: 42.8550
+Epoch 17/200 | Loss_G: 7446.8052 | Loss_D: 70.1355 | Val MAE: 40.0466
+Epoch 18/200 | Loss_G: 6900.1325 | Loss_D: 69.8548 | Val MAE: 38.4142
+Epoch 19/200 | Loss_G: 6857.5047 | Loss_D: 69.7298 | Val MAE: 39.6642
+Epoch 20/200 | Loss_G: 6917.2585 | Loss_D: 69.9095 | Val MAE: 42.0738
+Epoch 21/200 | Loss_G: 6922.4758 | Loss_D: 70.1452 | Val MAE: 39.2777
+Early stopping for Working at epoch 21

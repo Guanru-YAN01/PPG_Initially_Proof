@@ -1,11 +1,28 @@
 Training log for activity: Lunch
-Epoch 1/20 | Loss_G: 8895.0737 | Loss_D: nan | Val MAE: 32.0616
+Epoch 1/200 | Loss_G: 9210.7470 | Loss_D: 213.3352 | Val MAE: 39.5948
 Saved best model for Lunch
-Epoch 2/20 | Loss_G: 8455.6023 | Loss_D: nan | Val MAE: 31.7413
+Epoch 2/200 | Loss_G: 9623.7383 | Loss_D: 137.3771 | Val MAE: 32.3377
 Saved best model for Lunch
-Epoch 3/20 | Loss_G: 8525.7245 | Loss_D: nan | Val MAE: 32.7800
-Epoch 4/20 | Loss_G: 9317.1862 | Loss_D: nan | Val MAE: 33.1348
-Epoch 5/20 | Loss_G: 9347.2517 | Loss_D: nan | Val MAE: 35.0927
-Epoch 6/20 | Loss_G: 9582.5704 | Loss_D: nan | Val MAE: 37.3784
-Epoch 7/20 | Loss_G: 10414.5558 | Loss_D: nan | Val MAE: 35.2311
-Early stopping for Lunch at epoch 7
+Epoch 3/200 | Loss_G: 9419.3500 | Loss_D: 124.1874 | Val MAE: 35.7228
+Epoch 4/200 | Loss_G: 9882.0020 | Loss_D: 119.2903 | Val MAE: 39.8551
+Epoch 5/200 | Loss_G: 9740.6933 | Loss_D: 114.8905 | Val MAE: 34.3802
+Epoch 6/200 | Loss_G: 8693.5336 | Loss_D: 113.8076 | Val MAE: 34.7458
+Epoch 7/200 | Loss_G: 9321.0817 | Loss_D: 112.4379 | Val MAE: 32.7419
+Epoch 8/200 | Loss_G: 9442.3532 | Loss_D: 111.7323 | Val MAE: 37.8844
+Epoch 9/200 | Loss_G: 8956.1163 | Loss_D: 111.6455 | Val MAE: 28.8857
+Saved best model for Lunch
+Epoch 10/200 | Loss_G: 9273.5049 | Loss_D: 110.8522 | Val MAE: 31.5511
+Epoch 11/200 | Loss_G: 9489.8452 | Loss_D: 110.5522 | Val MAE: 37.7643
+Epoch 12/200 | Loss_G: 8167.4755 | Loss_D: 110.3628 | Val MAE: 28.7319
+Saved best model for Lunch
+Epoch 13/200 | Loss_G: 8663.1691 | Loss_D: 109.7770 | Val MAE: 33.1513
+Epoch 14/200 | Loss_G: 8962.8865 | Loss_D: 109.3394 | Val MAE: 33.3283
+Epoch 15/200 | Loss_G: 9394.3020 | Loss_D: 109.0330 | Val MAE: 34.8820
+Epoch 16/200 | Loss_G: 10028.7868 | Loss_D: 108.8055 | Val MAE: 31.6034
+Epoch 17/200 | Loss_G: 9080.5459 | Loss_D: 108.4518 | Val MAE: 34.7662
+Epoch 18/200 | Loss_G: 10023.4469 | Loss_D: 108.1599 | Val MAE: 38.4594
+Epoch 19/200 | Loss_G: 10968.5596 | Loss_D: 107.9840 | Val MAE: 41.1056
+Epoch 20/200 | Loss_G: 11370.4622 | Loss_D: 107.9146 | Val MAE: 38.1746
+Epoch 21/200 | Loss_G: 9792.2747 | Loss_D: 108.0236 | Val MAE: 34.3702
+Epoch 22/200 | Loss_G: 9413.1952 | Loss_D: 107.9411 | Val MAE: 30.6664
+Early stopping for Lunch at epoch 22

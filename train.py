@@ -11,10 +11,10 @@ DATA_ROOT = r"./preprocessed_data"
 print("Path exists:", os.path.exists(DATA_ROOT))
 
 BATCH_SIZE = 32
-EPOCHS = 20
+EPOCHS = 200
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 LAMBDA_ADV = 0.001
-PATIENCE = 5
+PATIENCE = 10
 
 # Define activities
 ACTIVITY_MAP = {
@@ -29,6 +29,11 @@ ACTIVITY_MAP = {
 }
 
 for activity_name in ACTIVITY_MAP:
+    # === 加载干净 PPG 样本（Sitting）用于训练 D ===
+    sitting_loader, _ = get_dataloaders(DATA_ROOT, batch_size=BATCH_SIZE, activity_filter="Sitting")
+    sitting_batch = next(iter(sitting_loader))
+    sitting_ppg = sitting_batch['ppg'].to(DEVICE)  # [B, 1, 512]
+
     print(f"\n--- Training model for activity: {activity_name} ---")
 
     log_dir = "logs"
@@ -68,10 +73,10 @@ for activity_name in ACTIVITY_MAP:
             activity_type = batch['activity_type'].to(DEVICE)
 
             # ==== Train Discriminator ====
-            pred_clean = D(ppg[activity_type == 0])  # clean samples only
+            pred_clean = D(sitting_ppg)  # 使用预加载的 clean 样本
             pred_fake = D(G(ppg.detach()))
 
-            real_labels = torch.ones_like(pred_clean)
+            real_labels = torch.full_like(pred_clean, 0.9)
             fake_labels = torch.zeros_like(pred_fake)
 
             loss_D_real = criterion_adv(pred_clean, real_labels)

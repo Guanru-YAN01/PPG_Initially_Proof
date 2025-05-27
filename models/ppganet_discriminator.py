@@ -33,6 +33,7 @@ class CNNDiscriminator1D(nn.Module):
         # Classifier
         self.flatten = nn.Flatten()
         self.classifier = nn.Sequential(
+            nn.Dropout(p=0.3), 
             nn.Linear(128 * 32, 1),  # 32 time steps after 4 downsamples
             nn.Sigmoid()
         )

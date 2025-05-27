@@ -1,9 +1,14 @@
 Training log for activity: Stairs
-Epoch 1/20 | Loss_G: 1615.2622 | Loss_D: nan | Val MAE: 19.9026
+Epoch 1/200 | Loss_G: 1603.5984 | Loss_D: 75.0852 | Val MAE: 19.9271
 Saved best model for Stairs
-Epoch 2/20 | Loss_G: 1618.5143 | Loss_D: nan | Val MAE: 20.1963
-Epoch 3/20 | Loss_G: 1610.2226 | Loss_D: nan | Val MAE: 20.1736
-Epoch 4/20 | Loss_G: 1639.2128 | Loss_D: nan | Val MAE: 20.5922
-Epoch 5/20 | Loss_G: 1650.7841 | Loss_D: nan | Val MAE: 20.6317
-Epoch 6/20 | Loss_G: 1648.0507 | Loss_D: nan | Val MAE: 20.0603
-Early stopping for Stairs at epoch 6
+Epoch 2/200 | Loss_G: 1627.5956 | Loss_D: 47.4726 | Val MAE: 20.4410
+Epoch 3/200 | Loss_G: 1707.6923 | Loss_D: 39.3442 | Val MAE: 20.2445
+Epoch 4/200 | Loss_G: 1708.8861 | Loss_D: 35.6663 | Val MAE: 20.1675
+Epoch 5/200 | Loss_G: 1720.2852 | Loss_D: 36.7732 | Val MAE: 20.4586
+Epoch 6/200 | Loss_G: 1684.0911 | Loss_D: 37.7151 | Val MAE: 20.2335
+Epoch 7/200 | Loss_G: 1711.6041 | Loss_D: 37.2499 | Val MAE: 20.3871
+Epoch 8/200 | Loss_G: 1703.0688 | Loss_D: 36.1441 | Val MAE: 20.6184
+Epoch 9/200 | Loss_G: 1688.7504 | Loss_D: 32.1521 | Val MAE: 20.5009
+Epoch 10/200 | Loss_G: 1704.0504 | Loss_D: 31.8666 | Val MAE: 20.1851
+Epoch 11/200 | Loss_G: 1691.0554 | Loss_D: 31.4767 | Val MAE: 20.4067
+Early stopping for Stairs at epoch 11

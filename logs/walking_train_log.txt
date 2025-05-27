@@ -1,11 +1,17 @@
 Training log for activity: Walking
-Epoch 1/20 | Loss_G: 2111.0119 | Loss_D: nan | Val MAE: 18.9202
+Epoch 1/200 | Loss_G: 1952.5765 | Loss_D: 119.6950 | Val MAE: 16.2704
 Saved best model for Walking
-Epoch 2/20 | Loss_G: 2219.5556 | Loss_D: nan | Val MAE: 17.3054
+Epoch 2/200 | Loss_G: 2059.7989 | Loss_D: 91.4211 | Val MAE: 17.0154
+Epoch 3/200 | Loss_G: 2004.2158 | Loss_D: 72.4355 | Val MAE: 15.7891
 Saved best model for Walking
-Epoch 3/20 | Loss_G: 2093.4464 | Loss_D: nan | Val MAE: 17.9838
-Epoch 4/20 | Loss_G: 2202.0607 | Loss_D: nan | Val MAE: 19.2088
-Epoch 5/20 | Loss_G: 2187.2990 | Loss_D: nan | Val MAE: 17.5434
-Epoch 6/20 | Loss_G: 2066.1154 | Loss_D: nan | Val MAE: 18.5818
-Epoch 7/20 | Loss_G: 2113.4831 | Loss_D: nan | Val MAE: 17.8043
-Early stopping for Walking at epoch 7
+Epoch 4/200 | Loss_G: 1819.3676 | Loss_D: 64.5567 | Val MAE: 16.2981
+Epoch 5/200 | Loss_G: 1807.1316 | Loss_D: 57.3127 | Val MAE: 15.8092
+Epoch 6/200 | Loss_G: 1832.1437 | Loss_D: 50.8440 | Val MAE: 16.6188
+Epoch 7/200 | Loss_G: 1960.6968 | Loss_D: 47.7152 | Val MAE: 17.0959
+Epoch 8/200 | Loss_G: 2096.1281 | Loss_D: 44.0636 | Val MAE: 16.9058
+Epoch 9/200 | Loss_G: 2036.4654 | Loss_D: 43.6005 | Val MAE: 16.6374
+Epoch 10/200 | Loss_G: 1945.4916 | Loss_D: 42.5153 | Val MAE: 16.5555
+Epoch 11/200 | Loss_G: 1966.3799 | Loss_D: 42.6698 | Val MAE: 16.9136
+Epoch 12/200 | Loss_G: 1953.9383 | Loss_D: 42.1359 | Val MAE: 16.3795
+Epoch 13/200 | Loss_G: 1919.7748 | Loss_D: 41.4483 | Val MAE: 16.7704
+Early stopping for Walking at epoch 13

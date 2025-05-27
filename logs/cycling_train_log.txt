@@ -1,9 +1,14 @@
 Training log for activity: Cycling
-Epoch 1/20 | Loss_G: 1766.8128 | Loss_D: nan | Val MAE: 11.9476
+Epoch 1/200 | Loss_G: 1798.5641 | Loss_D: 93.4756 | Val MAE: 12.7944
 Saved best model for Cycling
-Epoch 2/20 | Loss_G: 1743.2706 | Loss_D: nan | Val MAE: 13.2581
-Epoch 3/20 | Loss_G: 1733.5191 | Loss_D: nan | Val MAE: 12.2879
-Epoch 4/20 | Loss_G: 1808.1645 | Loss_D: nan | Val MAE: 12.3989
-Epoch 5/20 | Loss_G: 1798.7800 | Loss_D: nan | Val MAE: 13.8760
-Epoch 6/20 | Loss_G: 1865.6036 | Loss_D: nan | Val MAE: 15.7630
-Early stopping for Cycling at epoch 6
+Epoch 2/200 | Loss_G: 1831.4299 | Loss_D: 64.9047 | Val MAE: 13.6444
+Epoch 3/200 | Loss_G: 1861.1221 | Loss_D: 48.4124 | Val MAE: 14.0244
+Epoch 4/200 | Loss_G: 1874.4636 | Loss_D: 42.7017 | Val MAE: 13.9716
+Epoch 5/200 | Loss_G: 1899.1322 | Loss_D: 38.0318 | Val MAE: 14.5838
+Epoch 6/200 | Loss_G: 1904.6358 | Loss_D: 35.9275 | Val MAE: 16.2073
+Epoch 7/200 | Loss_G: 1937.5278 | Loss_D: 36.3783 | Val MAE: 15.5237
+Epoch 8/200 | Loss_G: 1994.0108 | Loss_D: 37.0245 | Val MAE: 16.4616
+Epoch 9/200 | Loss_G: 1915.1719 | Loss_D: 36.1468 | Val MAE: 14.7859
+Epoch 10/200 | Loss_G: 1903.2058 | Loss_D: 33.2308 | Val MAE: 15.4222
+Epoch 11/200 | Loss_G: 1961.3308 | Loss_D: 32.5739 | Val MAE: 15.9490
+Early stopping for Cycling at epoch 11
