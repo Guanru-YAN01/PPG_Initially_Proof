@@ -1,0 +1,28 @@
+Batch evaluation started
+========================================
+
+Evaluating activity: Sitting
+Sitting    | Samples: 4734 | MAE = 43.85 bpm | RMSE = 47.22 bpm
+
+Evaluating activity: Stairs
+Stairs     | Samples: 3355 | MAE = 19.25 bpm | RMSE = 25.37 bpm
+
+Evaluating activity: Soccer
+Soccer     | Samples: 2349 | MAE = 24.51 bpm | RMSE = 27.41 bpm
+
+Evaluating activity: Cycling
+Cycling    | Samples: 3504 | MAE = 19.00 bpm | RMSE = 26.30 bpm
+
+Evaluating activity: Driving
+Driving    | Samples: 6831 | MAE = 24.38 bpm | RMSE = 28.41 bpm
+
+Evaluating activity: Lunch
+Lunch      | Samples: 13571 | MAE = 24.38 bpm | RMSE = 28.43 bpm
+
+Evaluating activity: Walking
+Walking    | Samples: 4656 | MAE = 15.52 bpm | RMSE = 18.93 bpm
+
+Evaluating activity: Working
+Working    | Samples: 8457 | MAE = 33.44 bpm | RMSE = 36.19 bpm
+========================================
+Batch evaluation completed
